@@ -2,20 +2,121 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+.top{
+  height: 84px;
+  justify-content: space-between;
+  background-color: rgba(39, 35, 67, 1);
+  display: flex;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.shipping{
+height: 16px;
+gap: 8px;
+opacity: 70%;
+padding-top: 30px;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.links{
+height: 17px;
+gap: 24px;
+opacity: 70%;
+padding-top: 30px;
+}
+
+.middle{
+/* width: 1920px; */
+display: flex;
+height: 84px;
+justify-content: space-between;
+/* padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 300px;
+padding-right: 300px; */
+background-color: rgba(240, 242, 243, 1);
+
+}
+
+.logo{
+  height: 40px;
+  /* width: 66px; */
+  gap: 8px;
+  align-items: start;
+  padding-left: 16px;
+ padding-right: 16px;
+ padding-top: 11px;
+ padding-bottom: 11px;
+}
+
+.cart{
+  /* width: 120; */
+  height: 44;
+  gap: 12px;
+ border-radius: 8px;
+ padding-left: 16px;
+ padding-right: 16px;
+ padding-top: 11px;
+ padding-bottom: 11px;
+ align-items:end;
+ 
+}
+
+
+
+
+.link{
+ display: flex;
+justify-content: space-between;
+ align-items: center;
+ color: beige;
+ gap: 15px;
+ 
+ 
+  height: 60px;
+  
+
+
+}
+
+
+.naviation-botton{
+  color: black;
+  display: flex;
+  height: 15px;
+  width: 339px;
+  gap: 32px;
+  justify-content: center;
+  align-items:center;
+  padding-left: 40px;
+}
+
+  
+
+
+.contact{
+  padding-right: 20px;
+  color: black;
+
+ 
+}
+
+
+.header{
+  height: 850px;
+  
+}
+
+.company-logo{
+  height: 139px;
+}
+
+
+.topCatagory{
+padding-top: 100px;
+}
+.hotCatagory{
+  padding-top: 100px;
+}
+.ourProduct{
+  padding-top: 200px;
 }
