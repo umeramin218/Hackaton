@@ -1,19 +1,18 @@
 import Image from "next/image";
-import Navigation from "./component/navigation";
 import Header from "./component/header";
 import Product from "./component/products";
-import Footer from "./component/footer";
+import HomePage from "./(store)/home/MainHome";
 
 
 export default function Home() {
   return (
     <div>
-    
+    <div><HomePage/></div>
     <div>
-      <Header/>
+      
     </div>
     <div>
-      <Product/>
+      
     </div>
     
     </div>
